@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&family=M+PLUS+1:wght@400;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Days+One&display=swap"
+		rel="stylesheet">
+
+	<title>Project A</title>
+	<link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+	<!-- Swiper CDN -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+	<!-- Ukiyo CDN -->
+	<script src="https://cdn.jsdelivr.net/npm/ukiyojs@4.0.9/dist/ukiyo.min.js"></script>
+
+	<!-- Lenis CDN -->
+	<script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1/bundled/lenis.min.js"></script>
+
+</head>
+
+<body>
+	<!-- Scroll Up Button -->
+	<div class="scrollTop" onclick="scrollToTop();"><i class="fa-solid fa-arrow-up fa-2x"></i></div>
+	<!-- End of Scroll Up Button -->
+
+	<!-- Popup Section -->
+	<!-- <div class="popup">
+		<div class="contentBox">
+			<div class="close"></div>
+			<div class="imgBx">
+				<img src="/img/icon_cash.png">
+			</div>
+			<div class="content">
+				<h1>Get the latest offers</h1>
+				<p>Sign up to save more!</p>
+			</div>
+		</div>
+	</div> -->
+
+	<!-- Header Section -->
+	<section id="header">
+		<nav id="navbar" class="animate-fade">
+
+			<div class="home-logo-container">
+				<a href="#hero" class="home-logo"><svg class="tds-icon tds-icon-logo-wordmark tds-site-logo-icon"
+						viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zM308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7z"
+							fill="currentColor"></path>
+					</svg>
+				</a>
+			</div>
+
+			<ul class="nav-middle-buttons">
+				<li><a href="#swiper-deals">Work</a></li>
+				<li><a href="#services">My Way</a></li>
+				<li><a href="#events">Events</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+
+			<div class="socialtop">
+				<div class="top-social">
+					<a href="#" target="_blank"><i class="fa-brands fa-facebook fa-2x"></i></a>
+					<a href="#" target="_blank"><i class="fa-brands fa-line fa-2x"></i></a>
+				</div>
+			</div>
+
+			<!-- Mobile nav bar -->
+
+			<div id="menuToggle">
+				<input type="checkbox" />
+				<span></span>
+				<span></span>
+				<span></span>
+				<ul id="menu">
+					<li><a href="#swiper-deals">Work</a></li>
+					<li><a href="#services">Way</a></li>
+					<li><a href="#events">Events</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+
+			<!-- End of Mobile nav bar  -->
+		</nav>
+	</section>
+	<!-- End of Header Section -->
+
+
+	<!-- Hero Section -->
+	<section id="hero">
+		<div class="hero">
+			<h1 class="animate-fade">Welcome</h1>
+			<!-- <span class="mobile-hero animate-fade">to my world</span> -->
+			<img class="slideInLeft" src="/img/car_cutout1.png">
+			<!-- <p>This is where it all begins.</p> -->
+		</div>
+	</section>
+	<!-- End of Hero Section -->
+
+	<!-- Swiper Section -->
+	<!-- Title Text -->
+	<div id="swiper-deals" class="swiper-txt center reveal">
+		<h1>Check out my work</h1>
+	</div>
+	<!-- Swiper Images -->
+	<div class="swiper ukiyo">
+		<!-- Additional required wrapper -->
+		<div class="swiper-wrapper">
+			<!-- Slides -->
+			<div class="swiper-slide"><img class="swiper-img" src="img/car-deal01.jpg" draggable="false" alt=""></div>
+			<div class="swiper-slide"><img class="swiper-img" src="img/car-deal02.jpg" draggable="false" alt=""></div>
+			<div class="swiper-slide"><img class="swiper-img" src="img/car-deal03.jpg" draggable="false" alt=""></div>
+		</div>
+		<!-- If we need pagination -->
+		<div class="swiper-pagination"></div>
+
+		<!-- If we need navigation buttons -->
+		<div class="swiper-button-prev"></div>
+		<div class="swiper-button-next"></div>
+
+		<!-- If we need scrollbar -->
+		<div class="swiper-scrollbar"></div>
+	</div>
+	<!-- End of Swiper Section -->
+
+	<!-- Service Section -->
+	<section id="services">
+		<div class="services container reveal">
+			<div class="service-top">
+				<h1 class="section-title">My Way</h1>
+			</div>
+
+			<div class="service-bottom-grid">
+				<div class="service-item data-tilt">
+					<div class="icon"><i class="fa-solid fa-pencil fa-4x"></i></div>
+					<h2>Design</h2>
+					<p>I design everything from scratch</p>
+				</div>
+				<div class="service-item data-tilt">
+					<div class="icon"><i class="fa-solid fa-gem fa-4x"></i></div>
+					<h2>Quality</h2>
+					<p>I make sure everything's ready to use</p>
+				</div>
+				<div class="service-item data-tilt">
+					<div class="icon"><i class="fa-solid fa-hand-fist fa-4x"></i></div>
+					<h2>Never Give Up</h2>
+					<p>I never give up</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- End of Service Section -->
+
+	<!-- Service Section -->
+	<section id="parallax">
+		<div class="parallax-ctn parallax">
+			<video data-u-scale="1.1" playsinline autoplay muted loop class="ukiyo" type="video/mp4"
+				src="/vid/cat_sleep_mid.mp4" alt="cat sleeping">
+		</div>
+	</section>
+
+	<!-- Content Section -->
+	<section id="events">
+		<div class="events">
+			<div class="events-content">
+
+				<h2>Events</h2>
+				<p>Don't miss out on my events!</p>
+
+			</div>
+
+			<div class="img">
+				<i class="fa-brands fa-facebook fa-10x"></i>
+			</div>
+		</div>
+	</section>
+	<!-- End of Content Section -->
+
+	<!-- Weather Card -->
+	<section id="api">
+		<div class="api-title center padding-top">
+			<h1 class="capitalize">
+				APIs for fun
+			</h1>
+		</div>
+		<div class="weather-card reveal">
+			<div class="weather-title padding-btm-small">
+				<h1>Enter City Name</h1>
+			</div>
+			<div class="weather-search">
+				<input type="text" placeholder="enter city name" spellcheck="false">
+				<button><img src="img/weather-app-images/search.png" alt=""></button>
+			</div>
+			<div class="error">
+				<p>Invalid City Name</p>
+			</div>
+			<div class="weather-ctn">
+				<img src="img/weather-app-images/rain.png" alt="" class="weather-icon">
+				<h1 class="temp">22°C</h1>
+				<h2 class="city">Bangkok</h2>
+				<div class="details">
+					<div class="col">
+						<img src="img/weather-app-images/humidity.png" alt="">
+						<div>
+							<p class="humidity">50%</p>
+							<p>Humidity</p>
+						</div>
+					</div>
+					<div class="col">
+						<img src="img/weather-app-images/wind.png" alt="">
+						<div>
+							<p class="wind">15 km/h</p>
+							<p>Wind Speed</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End of Weather Card -->
+
+	<!-- Brand Logo Section
+	<section id="brand-logo">
+		<div class="brand-logo-area">
+			<img src="/img/icons/apple-music.svg" alt="">
+		</div>
+	</section> -->
+
+	<!-- End of Brand Logo Section -->
+
+	<!-- Contact Section -->
+	<section id="contact">
+		<div class="contact">
+			<h2 class="contact-title reveal">
+				Contact<br>
+				<span class="content-title-span">Me</span>
+			</h2>
+			<div class="contact-content">
+				<p class="contact-content reveal">
+					Hi! I love working to learn new things
+				</p>
+				<p class="contact-content reveal">
+					It's a part of my lifestyle
+				</p>
+				<p class="contact-content reveal">
+					Let's get some work done!
+				</p>
+			</div>
+		</div>
+		<section id="email"></section>
+		<div class="email center">
+			<h1>
+				<a class="email-icon" href="mailto:kk.pon3@gmail.com"><i class="fa fa-envelope fa-3x"></i></a>
+			</h1>
+
+		</div>
+		<!-- <div class="low-social">
+				<a href="#" target="_blank"><i class="fa-brands fa-facebook fa-2x"></i></a>
+				<a href="#" target="_blank"><i class="fa-brands fa-line fa-2x"></i></a>
+			</div> -->
+	</section>
+	<!-- End of Contact Section -->
+
+
+	</div>
+
+
+	<footer class="footer">
+		<p>Author: Po</p>
+	</footer>
+
+	<!-- Scripts -->
+	<script type="text/javascript" src="js/main.js"></script>
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="js/scroll-up-button.js"></script>
+	<script type="text/javascript" src="js/reveal-element.js"></script>
+	<!-- <script type="text/javascript" src="js/popup.js"></script> -->
+	<script type="text/javascript" src="js/navbar.js"></script>
+	<script type="text/javascript" src="js/swiper.js"></script>
+	<script type="text/javascript" src="js/ukiyo.js"></script>
+	<script type="text/javascript" src="js/vanilla-tilt.js"></script>
+	<script type="text/javascript" src="js/weather.js"></script>
+
+</body>
+
+</html>
